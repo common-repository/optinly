@@ -1,0 +1,55 @@
+.notice{
+    display: none;
+}
+
+.optinly-load-spinner {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #ff8f00;
+    border-bottom: 5px solid #ff8f00;
+    width: 15px;
+    height: 15px;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#optinly-loader-container {
+    display: none;
+    padding: 8px 15px;
+}
+
+p.optinly-field-description {
+    color: #757575;
+    font-style: italic;
+    margin: 0;
+    padding-top: .5em;
+}
+
+
+.optinly-section .button-primary,.optinly-section .button-primary:hover {
+    background: #0585f9;
+    border: 1px solid #0585f9;
+    text-shadow: none;
+}
+
+.optinly-api-response-container{
+    margin: 10px auto;
+}
